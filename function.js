@@ -45,3 +45,11 @@
 // };
 
 // luwi(cifrebi)
+
+
+
+// function doubleNumber(number){
+//     return number*2
+// }
+// doubleNumber(54)
+// console.log(doubleNumber(54));
