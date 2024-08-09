@@ -43,3 +43,26 @@ for(i=1;i<34;i++ ){
     q=q+i
 }
 console.log(q)
+
+
+// 5იდან 50 მდე ყველა მეოთხე რიცხვის ჯამი. 
+
+
+let W=0
+for(let i = 0; i<=50; i+=4)
+{
+    W=W+i
+}
+console.log(W)
+
+
+
+let numbers=[5,7,12,15,56,156]
+
+for(let i=0; i<numbers.length; i++){
+    const elementi = numbers[i]
+    if(elementi%2===1){
+        console.log(elementi+` elementi kentia` +` namravli iqneba `+ elementi* elementi)
+    
+    }else{console.log(`luwia`+elementi/2)}
+}
