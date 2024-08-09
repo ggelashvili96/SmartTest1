@@ -53,3 +53,25 @@
 // }
 // doubleNumber(54)
 // console.log(doubleNumber(54));
+
+
+// const doubleNumber=(number) =>{
+//     return number *2
+// }
+// console.log(doubleNumber(54));
+
+
+// const randomNum = Math.random()
+// console.log(randomNum)
+// const Round=Math.round(randomNum)
+// console.log(Round)
+
+function gamravleba(a,b){
+    if(a>b){
+        return a+b;
+    } else{
+        return a*b;
+    }
+}
+
+console.log(gamravleba(5,2))
